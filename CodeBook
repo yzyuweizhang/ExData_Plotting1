@@ -1,0 +1,5 @@
+household_power_consumption.txt was imported by read.table and named as data 1 
+"1/2/2007" and "2/2/2007" were subseted into data2 
+data2$Date was converted by as.Date by %d%m%Y and pasted with data2$Time and named as Time 
+data2$Date and data2$Time were removed and new subset called data2  
+Time was added to data2, and converted to as.POSIXct 
